@@ -4,31 +4,27 @@
     --dark : black;
     --lite : white;
 }
-
 html, body{
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
 }
-
 .centerBox{
     display: flex;
+    flex-direction: column;
     border: none;
     height: 50vh;
     width: 70vw;
     background-image: linear-gradient(to bottom, var(--col1), var(--col1) ,var(--col2));
     align-items: center;
-    justify-content: center;
     margin-top: 25vh;
     margin-left: 15vw;
     border-radius: 25px;
 }
-
 .top1{
     display: flex;
     align-self: flex-start;
 }
-
 .design1, .design2{
     display: flex;
     justify-content: center;
@@ -58,8 +54,44 @@ html, body{
     background-color: var(--col2);
     color: var(--col1);
 }
-
 .button2.signup-active {
     background-color: var(--col1);
     color: var(--col2);
+}
+.username{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    align-items: center;
+}
+.password{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#uname, #pword{
+    border: none;
+    height: 3vh;
+    width: 50vw;
+    border-radius: 20px;
+}
+.submit{
+    border: none;
+    background-color: var(--col1);
+    color: var(--col2);
+    margin-top: 50%;
+    width: 35vw;
+    height: 3vh;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.submit:active{
+    border: none;
+    background-color: var(--col2);
+    color: var(--col1);
+    margin-top: 50%;
+    width: 35vw;
+    height: 3vh;
+    border-radius: 20px;
+    cursor: pointer;
 }
