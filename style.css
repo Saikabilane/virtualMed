@@ -1,0 +1,25 @@
+:root{
+    --col1 : #DD6E42;
+    --col2 : #E8DAB2;
+    --dark : black;
+    --lite : white;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.centerBox{
+    display: flex;
+    border: none;
+    height: 50vh;
+    width: 20vw;
+    background-image: linear-gradient(to bottom, var(--col1), var(--col2));
+    align-items: center;
+    justify-content: center;
+    margin-top: 25vh;
+    margin-left: 40vw;
+    border-radius: 90px;
+}
