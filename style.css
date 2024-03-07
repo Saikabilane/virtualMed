@@ -16,10 +16,50 @@ html, body{
     border: none;
     height: 50vh;
     width: 40vw;
-    background-image: linear-gradient(to bottom, var(--col1), var(--col2));
+    background-image: linear-gradient(to bottom, var(--col1), var(--col1) ,var(--col2));
     align-items: center;
     justify-content: center;
     margin-top: 25vh;
     margin-left: 30vw;
-    border-radius: 20%;
+    border-radius: 25px;
+}
+
+.top1{
+    display: flex;
+    align-self: flex-start;
+}
+
+.design1, .design2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 3vh;
+}
+.button1{
+    border: none;
+    background-color: var(--col1);
+    color: var(--col2);
+    border-radius: 25px 0px 0px 0px;
+    width: 20vw;
+    height: 3vh;
+    cursor: pointer;
+}
+.button2{
+    border: none;
+    background-color: var(--col2);
+    color: var(--col1);
+    border-radius: 0px 25px 0px 0px;
+    width: 20vw;
+    height: 3vh;
+    cursor: pointer;
+}
+.button1.login-active {
+    background-color: var(--col2);
+    color: var(--col1);
+}
+
+.button2.signup-active {
+    background-color: var(--col1);
+    color: var(--col2);
 }
