@@ -15,12 +15,12 @@ html, body{
     display: flex;
     border: none;
     height: 50vh;
-    width: 40vw;
+    width: 70vw;
     background-image: linear-gradient(to bottom, var(--col1), var(--col1) ,var(--col2));
     align-items: center;
     justify-content: center;
     margin-top: 25vh;
-    margin-left: 30vw;
+    margin-left: 15vw;
     border-radius: 25px;
 }
 
@@ -33,7 +33,7 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20vw;
+    width: 35vw;
     height: 3vh;
 }
 .button1{
@@ -41,7 +41,7 @@ html, body{
     background-color: var(--col1);
     color: var(--col2);
     border-radius: 25px 0px 0px 0px;
-    width: 20vw;
+    width: 35vw;
     height: 3vh;
     cursor: pointer;
 }
@@ -50,7 +50,7 @@ html, body{
     background-color: var(--col2);
     color: var(--col1);
     border-radius: 0px 25px 0px 0px;
-    width: 20vw;
+    width: 35vw;
     height: 3vh;
     cursor: pointer;
 }
